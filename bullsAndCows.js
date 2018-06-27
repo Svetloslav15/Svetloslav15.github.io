@@ -1,3 +1,14 @@
+let movesCounter = (function () {
+    let counter = 1;
+    function restart() {
+        counter = 1;
+    }
+    function count() {
+        return counter++;
+    }
+    return {restart, count};
+}());
+
 function generateNum(number) {
     let num = Math.floor(Math.random() * 8998) + 1000;
     $('#secretNum').val(num);
@@ -6,6 +17,7 @@ function generateNum(number) {
         $('#surrender').css("display", "none");
         $('#win').css("display", "none");
         $('#new-game').css("display", "block");
+        $('#oldMoves').text("");
     }
     else if (number === 2){
         $('#start').css("display", "block");
@@ -13,61 +25,59 @@ function generateNum(number) {
         $('#surrender').css("display", "none");
         $('#win').css("display", "none");
     }
+    $("#bulls").val("0");
+    $("#cows").val("0");
+    $('#surrender').text("Числото, което трябваше да познаеш беше ");
+    $('#play').removeAttr("disabled", "enable");
+    $('#surrenderBtn').removeAttr("disabled", "enable");
+    movesCounter.restart();
 }
-let movesCounter = (function () {
-    let counter = 1;
-    return function () {
-        return counter++;
-    }
-}());
+
 
 function calculateBullsAndCows() {
     let numberForGuess = $('#secretNum').val();
+    let tryNum = Number($('#yourNum').val()).toString();
+    console.log("guess" + tryNum);
     console.log(numberForGuess);
-    let tryNum = Number($('#yourNum').val());
-    let guessH = Math.floor(numberForGuess / 1000);
-    let guessS = Math.floor(numberForGuess / 100 % 10);
-    let guessD = Math.floor(numberForGuess / 10 % 10);
-    let guessE = Math.floor(numberForGuess % 10);
-    let numH = Math.floor(tryNum / 1000);
-    let numS = Math.floor(tryNum / 100 % 10);
-    let numD = Math.floor(tryNum / 10 % 10);
-    let numE = Math.floor(tryNum % 10);
+
+    let isGuessVisted = [false, false, false, false];
+    let isNumVisted = [false, false, false, false];
 
     let bulls = 0;
     let cows = 0;
-    if (guessH === numH){
-        bulls++;
-    }
-    if (guessS === numS){
-        bulls++;
-    }
-    if (guessD === numD){
-        bulls++;
-    }
-    if (guessE === numE){
-        bulls++;
+
+    for (let i = 0; i < numberForGuess.length; i++) {
+        if (numberForGuess[i] === tryNum[i]){
+            bulls++;
+            isGuessVisted[i] = true;
+            isNumVisted[i] = true;
+        }
     }
     if (bulls === 4){
         $('#win').css("display", "inline-block");
+        $('#surrenderBtn').attr("disabled", "disabled");
         return;
     }
-    let obj = {
-        '0':0,
-        '1':0,
-        '2':0,
-        '3':0,
-        '4':0,
-        '5':0,
-        '6':0,
-        '7':0,
-        '8':0,
-        '9':0
-    };
-    cows = obj[numH.toString()] + obj[numH.toString()] + obj[numH.toString()] + obj[numE.toString()];
+    for (let i = 0; i < numberForGuess.length; i++) {
+        for (let j = 0; j < tryNum.length; j++) {
+            if (i != j && !isNumVisted[j] && !isGuessVisted[i] && numberForGuess[i] === tryNum[j]){
+                cows++;
+                isGuessVisted[i] = true;
+                isNumVisted[j] = true;
+            }
+        }
+    }
+
     $('#bulls').val(bulls);
     $('#cows').val(cows);
-    let moves = movesCounter();
+    let moves = movesCounter.count();
     let text = `${moves}. ${tryNum} = ${bulls} бика и ${cows} крави\n`;
     $('#oldMoves').append(text);
+}
+function surrender() {
+    let num = $('#secretNum').val();
+    $('#surrender').append(num + "!");
+    $('#surrender').css("display", "inline-block");
+    $('#play').attr("disabled", "disabled");
+    $('#surrenderBtn').attr("disabled", "disabled");
 }
