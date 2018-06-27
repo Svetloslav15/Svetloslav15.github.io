@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{
+    font-family: 'Pacifico', cursive;
+    background: #f4b541;
+    color: #2E4365;
+    text-align: center;
+}
+#firstSection, #secondSection, #thirdSection{
+    display: flex;
+    margin-left: 7em;
+    margin-top: 2em;
+}
+#firstSection p {
+    margin: 0 50px;
+}
+#firstSection h1{
+    text-align: center;
+    font-size: 51px;
+    margin: 0 auto;
+}
+#win, #surrender{
+    background: #395EA5;
+    border-radius: 15px;
+    border: 2px solid white;
+    color: white;
+    width: 20%;
+    display: none;
+    padding: 10px;
+}
+img{
+    width: 30%;
+    height: 257px;
+    margin: 0 5em;
+}
+#secondSection{
+    position: relative;
+    right: 7em;
+}
+#cow{
+    margin-left: 12em;
+}
+.btns{
+    background: #395EA5;
+    color: white;
+    width: 14em;
+    height: 4em;
+    font-size: 13px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 2px solid white;
+    outline: none;
+    box-shadow: 10px 10px 23px -8px rgba(11,48,87,1);
+}
+#checkNum {
+    display: flex;
+    flex-flow: column;
+    width: 14%;
+}
+#yourNum{
+    width: 20em;
+    height: 3em;
+    padding-left: 15px;
+    border: 2px solid #2E4365;
+    border-radius: 8px;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+#secretNum{
+    position: relative;
+    left: -9999px;
+    top: -9999px;
+    display: none;
+}
+#new-game{
+    display: none;
+}
+#start{
+    position: relative;
+    right: -2em;
+}
+#buttonsCl button{
+    display: inline-block;
+    margin: 10px;
+}
+textarea{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid;
+    color: #2E4365;
+    box-shadow: 10px 10px 23px -8px rgba(11,48,87,1);
+    font-weight: bold;
+    position: relative;
+    bottom: 4em;
+}
+span{
+    font-size: 50px;
+}
+.inputType{
+    width: 38px;
+    height: 27px;
+    border: 2px solid #2E4365;
+    border-radius: 17px;
+    font-weight: bold;
+}
+#cowsAndBulls{
+    margin-left: 3em;
+}
