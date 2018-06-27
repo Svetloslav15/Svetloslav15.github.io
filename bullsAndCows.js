@@ -37,8 +37,6 @@ function generateNum(number) {
 function calculateBullsAndCows() {
     let numberForGuess = $('#secretNum').val();
     let tryNum = Number($('#yourNum').val()).toString();
-    console.log("guess" + tryNum);
-    console.log(numberForGuess);
 
     let isGuessVisted = [false, false, false, false];
     let isNumVisted = [false, false, false, false];
@@ -56,6 +54,9 @@ function calculateBullsAndCows() {
     if (bulls === 4){
         $('#win').css("display", "inline-block");
         $('#surrenderBtn').attr("disabled", "disabled");
+        let moves = movesCounter.count();
+        let text = `${moves}. ${tryNum} = ${bulls} бика и ${cows} крави\n`;
+        $('#oldMoves').append(text);
         return;
     }
     for (let i = 0; i < numberForGuess.length; i++) {
