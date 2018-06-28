@@ -119,3 +119,7 @@ span{
     position: relative;
     left: 1em;
 }
+footer{
+    text-align: center;
+    padding: 10px;
+}
