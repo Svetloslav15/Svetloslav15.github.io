@@ -98,6 +98,8 @@ textarea{
     font-weight: bold;
     position: relative;
     bottom: 4em;
+    text-align: center;
+    padding: 3px 0;
 }
 span{
     font-size: 50px;
@@ -108,6 +110,7 @@ span{
     border: 2px solid #2E4365;
     border-radius: 17px;
     font-weight: bold;
+    text-align: center;
 }
 #cowsAndBulls{
     margin-left: 3em;

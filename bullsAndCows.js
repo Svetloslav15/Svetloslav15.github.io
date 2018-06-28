@@ -39,7 +39,7 @@ function calculateBullsAndCows() {
     let tryNum = Number($('#yourNum').val()).toString();
 
     if (tryNum === "NaN" || tryNum.length != 4){
-        $('#oldMoves').append("Invalid input!\n");
+        $('#yourNum').val("Invalid Input!");
         return;
     }
     let isGuessVisted = [false, false, false, false];
@@ -56,6 +56,7 @@ function calculateBullsAndCows() {
         }
     }
     if (bulls === 4){
+        $('#win').fadeIn();
         $('#win').css("display", "inline-block");
         $('#surrenderBtn').attr("disabled", "disabled");
         let moves = movesCounter.count();
@@ -82,6 +83,7 @@ function calculateBullsAndCows() {
 function surrender() {
     let num = $('#secretNum').val();
     $('#surrender').append(num + "!");
+    $('#surrender').fadeIn();
     $('#surrender').css("display", "inline-block");
     $('#play').attr("disabled", "disabled");
     $('#surrenderBtn').attr("disabled", "disabled");
