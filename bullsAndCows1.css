@@ -12,15 +12,17 @@ body{
     margin-top: 2em;
 }
 #firstSection p {
-    margin: 0 50px;
+    float: left;
+    margin: 5em 0 0 5em;
     display: none;
 }
 #firstSection h1{
     text-align: center;
     font-size: 51px;
     display: inline-block;
+
 }
-#win, #surrender{
+#surrender-or-win{
     background: #395EA5;
     border-radius: 15px;
     border: 2px solid white;
@@ -101,6 +103,24 @@ textarea{
     text-align: center;
     padding: 3px 0;
 }
+#thirdSection p{
+    background: rgb(57, 94, 165);
+    color: white;
+    border: 3px solid;
+    border-radius: 15px;
+    position: relative;
+    padding: 10px;
+    width: 27em;
+    bottom: 30em;
+    left: 1em;
+    display: none;
+}
+#close{
+    margin-top: 10px;
+}
+#buttonsCl button:nth-child(3){
+    margin-left: 2em;
+}
 span{
     font-size: 50px;
 }
@@ -112,9 +132,7 @@ span{
     font-weight: bold;
     text-align: center;
 }
-#cowsAndBulls{
-    margin-left: 3em;
-}
+
 #play, #surrenderBtn{
     position: relative;
     left: 1em;
@@ -122,4 +140,7 @@ span{
 footer{
     text-align: center;
     padding: 10px;
+}
+#surrenderBtn {
+    display: none;
 }

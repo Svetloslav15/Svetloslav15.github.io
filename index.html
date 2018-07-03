@@ -12,9 +12,8 @@
 <body>
 <main>
     <section id="firstSection">
-        <p id="surrender">Числото, което трябваше да познаеш беше </p>
+        <p id="surrender-or-win"></p>
         <h1>Бикове и Крави</h1>
-        <p id="win">Честито ти позна числото. Искаш ли да играеш пак?</p>
     </section>
     <section id="secondSection">
         <img src="images/bull.png" alt="bull" id="bull">
@@ -25,22 +24,18 @@
             <section id="buttonsCl">
                 <button id="play" class="btns" onclick="calculateBullsAndCows()">Провери</button>
                 <button id="surrenderBtn" class="btns" onclick="surrender()">Предавам се</button>
+                <button class="btns" onclick="showRules()">Правила</button>
             </section>
         </section>
         <img src="images/cow-tail.png" alt="bull" id="cow">
     </section>
     <section id="thirdSection">
         <textarea name="oldMoves" cols="35" rows="10" id="oldMoves" disabled="disabled"></textarea>
-        <section id="cowsAndBulls">
-            <label>
-                <span>Бикове: </span>
-                <input type="text" class="inputType" disabled="disabled" id="bulls">
-            </label>
-            <label>
-                <span>Крави: </span>
-                <input type="text" class="inputType" disabled="disabled" id="cows">
-            </label>
-        </section>
+        <p>Целта на играта е да познаете кое число си е намислил компютъра. Числото ще бъде в диапазона от 1000 до 9999.
+        Когато получите "крава" означава, че някоя от цифрите на вашето число се съдържа в числото на компютъра,
+        но не си е на мястото. Ако получите "бик", значи числото си е на мястото. Целта е да получите 4 бика!
+        <button id="close" class="btns" onclick="closeRules()">Затвори</button>
+        </p>
     </section>
     <input id="secretNum" disabled="disabled">
 </main>
