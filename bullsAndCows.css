@@ -22,15 +22,6 @@ body{
     display: inline-block;
 
 }
-#surrender-or-win{
-    background: #395EA5;
-    border-radius: 15px;
-    border: 2px solid white;
-    color: white;
-    width: 20%;
-    display: none;
-    padding: 10px;
-}
 img{
     width: 30%;
     height: 257px;

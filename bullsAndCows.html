@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Bulls and Cows</title>
-    <link rel="stylesheet" href="bullsAndCows1.css" type="text/css">
+    <link rel="stylesheet" href="bullsAndCows.css" type="text/css">
     <link rel="script" href="bullsAndCows.js">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"
             integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
@@ -12,7 +12,6 @@
 <body>
 <main>
     <section id="firstSection">
-        <p id="surrender-or-win"></p>
         <h1>Бикове и Крави</h1>
     </section>
     <section id="secondSection">
@@ -31,15 +30,11 @@
     </section>
     <section id="thirdSection">
         <textarea name="oldMoves" cols="35" rows="10" id="oldMoves" disabled="disabled"></textarea>
-        <p>Целта на играта е да познаете кое число си е намислил компютъра. Числото ще бъде в диапазона от 1000 до 9999.
-        Когато получите "крава" означава, че някоя от цифрите на вашето число се съдържа в числото на компютъра,
-        но не си е на мястото. Ако получите "бик", значи числото си е на мястото. Целта е да получите 4 бика!
-        <button id="close" class="btns" onclick="closeRules()">Затвори</button>
-        </p>
     </section>
     <input id="secretNum" disabled="disabled">
 </main>
 <footer>Copyright &copy; Svetloslav Novoselski</footer>
-<script src="bullsAndCows.js"></script>
+<script src="bullsAndCows.js">solution()
+</script>
 </body>
 </html>
