@@ -16,7 +16,7 @@ $( "#yourNum" ).on( "keydown", function(event) {
 });
 
 function generateNum(number) {
-    let num = Math.floor(Math.random() * 9999) + 1000;
+    let num = Math.floor(Math.random() * 8999) + 1000;
     $('#secretNum').val(num);
     $('#firstSection  h1').css("margin-right", "0");
     if (number === 1) {
