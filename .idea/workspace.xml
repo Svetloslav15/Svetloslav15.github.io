@@ -4,8 +4,6 @@
     <list default="true" id="58640efb-68f7-4c68-b7ab-a5a83a21f6e7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/bullsAndCows.css" afterPath="$PROJECT_DIR$/bullsAndCows.css" />
-      <change beforePath="$PROJECT_DIR$/bullsAndCows.js" afterPath="$PROJECT_DIR$/bullsAndCows.js" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +22,8 @@
           <file leaf-file-name="bullsAndCows.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bullsAndCows.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+                <state relative-caret-position="408">
+                  <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -44,12 +42,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="bullsAndCows.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bullsAndCows.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="300">
-                  <caret line="40" column="20" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="40" selection-end-column="20" />
+                  <caret line="40" column="20" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="40" selection-end-column="20" />
                   <folding>
                     <marker date="1531772198963" expanded="true" signature="2486:2652" ph="{...}" />
                   </folding>
@@ -78,8 +76,8 @@
         <option value="$PROJECT_DIR$/index1.html" />
         <option value="$PROJECT_DIR$/bullsAndCows1.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/bullsAndCows.css" />
         <option value="$PROJECT_DIR$/bullsAndCows.js" />
+        <option value="$PROJECT_DIR$/bullsAndCows.css" />
       </list>
     </option>
   </component>
@@ -204,12 +202,13 @@
       <workItem from="1531764632566" duration="6000" />
       <workItem from="1531765552788" duration="7000" />
       <workItem from="1531766439609" duration="1093000" />
-      <workItem from="1531770377605" duration="1846000" />
+      <workItem from="1531770377605" duration="2026000" />
+      <workItem from="1531772565396" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27948000" />
+    <option name="totallyTimeSpent" value="28135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -274,6 +273,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bullsAndCows.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bullsAndCows.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1531772198963" expanded="true" signature="2486:2652" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bullsAndCows.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -428,21 +453,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bullsAndCows.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bullsAndCows.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="40" column="20" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="40" selection-end-column="20" />
+          <caret line="40" column="20" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="40" selection-end-column="20" />
           <folding>
             <marker date="1531772198963" expanded="true" signature="2486:2652" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bullsAndCows.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
