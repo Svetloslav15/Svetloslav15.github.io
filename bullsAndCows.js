@@ -37,8 +37,8 @@ function calculateBullsAndCows() {
     let tryNum = Number($('#yourNum').val()).toString();
 
     if (tryNum === "NaN" || tryNum.length != 4){
-        alert("Invalid Input!");
         $('#yourNum').val("");
+        alert("Invalid Input!");
         return;
     }
     let isGuessVisted = [false, false, false, false];
