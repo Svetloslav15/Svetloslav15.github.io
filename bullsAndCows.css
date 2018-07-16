@@ -6,6 +6,7 @@ body{
     color: #2E4365;
     text-align: center;
 }
+
 #secondSection, #thirdSection{
     display: flex;
     margin-left: 7em;
