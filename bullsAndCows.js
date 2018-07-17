@@ -36,9 +36,13 @@ function calculateBullsAndCows() {
     let numberForGuess = $('#secretNum').val();
     let tryNum = Number($('#yourNum').val()).toString();
 
-    if (tryNum === "NaN" || tryNum.length != 4){
+    if (tryNum === "NaN" || tryNum.length != 4 || tryNum[0] === "0"){
         $('#yourNum').val("");
-        alert("Invalid Input!");
+        swal({
+            title: "Error",
+            text: "Невалиден вход",
+            icon: "error",
+        });
         return;
     }
     let isGuessVisted = [false, false, false, false];
@@ -75,21 +79,33 @@ function calculateBullsAndCows() {
 }
 function surrender() {
     let num = $('#secretNum').val();
-    alert(`Числото, което трябваше да познаеш е ${num}!`);
+    swal({
+        title: "Играй отново",
+        text: `Числото, което трябваше да познаеш е ${num}!`,
+        icon: "info",
+    });
     $('#play').prop("disabled", true);
 }
 function win(tryNum) {
-    alert("Честито ти позна числото искаш ли да играеш отново?");
+    swal({
+        title: "Поздравления!",
+        text: `Ти позна числото. Искаш ли да играеш отново?`,
+        icon: "success",
+    });
     $('#play').prop("disabled", true);
     let moves = movesCounter.count();
     let text = `${moves}. ${tryNum} = 4 бика и 0 крави\n`;
     $('#oldMoves').append(text);
 }
 function showRules() {
-    alert("Целта на играта е да познаете кое число си е намислил компютъра. " +
+    swal({
+        title: "Правила",
+        text: "Целта на играта е да познаете кое число си е намислил компютъра. " +
         "Числото ще бъде в диапазона от 1000 до 9999.\nКогато получите \"крава\" " +
         "означава, че някоя от цифрите на вашето число се съдържа в числото на компютъра,\n" +
         "но не си е на мястото. Ако получите \"бик\", значи числото си е на мястото. " +
-        "Целта е да получите 4 бика!");
+        "Целта е да получите 4 бика!",
+        icon: "info",
+    });
     $('#play').attr("disabled", "disabled");
 }
