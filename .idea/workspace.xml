@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35df28fd-4c1d-4031-9093-8b8027985022" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/hangMan/hangman.html" afterPath="$PROJECT_DIR$/hangMan/hangman.html" />
+      <change beforePath="$PROJECT_DIR$/bullsAndCows/bullsAndCows.css" afterPath="$PROJECT_DIR$/bullsAndCows/bullsAndCows.css" />
       <change beforePath="$PROJECT_DIR$/hangMan/hangman.js" afterPath="$PROJECT_DIR$/hangMan/hangman.js" />
-      <change beforePath="$PROJECT_DIR$/hangMan/images/1.PNG" afterPath="$PROJECT_DIR$/hangMan/imagesHangMan/1.PNG" />
-      <change beforePath="$PROJECT_DIR$/hangMan/images/2.PNG" afterPath="$PROJECT_DIR$/hangMan/imagesHangMan/2.PNG" />
-      <change beforePath="$PROJECT_DIR$/hangMan/images/3.PNG" afterPath="$PROJECT_DIR$/hangMan/imagesHangMan/3.PNG" />
-      <change beforePath="$PROJECT_DIR$/hangMan/images/4.PNG" afterPath="$PROJECT_DIR$/hangMan/imagesHangMan/4.PNG" />
-      <change beforePath="$PROJECT_DIR$/hangMan/images/5.PNG" afterPath="$PROJECT_DIR$/hangMan/imagesHangMan/5.PNG" />
-      <change beforePath="$PROJECT_DIR$/hangMan/images/6.PNG" afterPath="$PROJECT_DIR$/hangMan/imagesHangMan/6.PNG" />
-      <change beforePath="$PROJECT_DIR$/hangMan/images/7.PNG" afterPath="$PROJECT_DIR$/hangMan/imagesHangMan/7.PNG" />
-      <change beforePath="$PROJECT_DIR$/hangMan/images/8.PNG" afterPath="$PROJECT_DIR$/hangMan/imagesHangMan/8.PNG" />
-      <change beforePath="$PROJECT_DIR$/hangMan/images/all.png" afterPath="$PROJECT_DIR$/hangMan/imagesHangMan/all.png" />
-      <change beforePath="$PROJECT_DIR$/hangMan/src/new 1.txt" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="272">
+              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bullsAndCows.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bullsAndCows/bullsAndCows.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -41,18 +40,28 @@
       <file leaf-file-name="hangman.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hangMan/hangman.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="80" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="80" />
+            <state relative-caret-position="187">
+              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hangman.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bullsAndCows.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bullsAndCows/bullsAndCows.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hangman.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hangMan/hangman.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+            <state relative-caret-position="323">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -206,16 +215,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532113258243</updated>
-      <workItem from="1532113259529" duration="1872000" />
+      <workItem from="1532113259529" duration="2389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1872000" />
+    <option name="totallyTimeSpent" value="2389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1380" height="735" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962743" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -271,42 +279,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bullsAndCows/bullsAndCows.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bullsAndCows/bullsAndCows.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state relative-caret-position="255">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hangMan/hangman.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hangMan/hangman.html">
+    <entry file="file://$PROJECT_DIR$/bullsAndCows/bullsAndCows.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="80" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="80" />
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="272">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hangMan/hangman.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hangMan/hangman.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding />
         </state>
       </provider>

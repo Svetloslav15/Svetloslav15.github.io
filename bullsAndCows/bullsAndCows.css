@@ -22,6 +22,7 @@ body{
 a{
     text-decoration: none;
     color: white;
+    padding: 2em;
 }
 #back-btn:hover a{
     color: #4758A3;

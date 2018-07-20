@@ -8,7 +8,7 @@ function startGame() {
         $('.letter').removeClass('already-selected');
         $('.letter').prop('disabled', false);
         $('#hangman').empty();
-        $('#hangman').append(`<img src="imagesHangMan/1.png">`);
+        $('#hangman').append(`<img src="imagesHangMan/1.PNG">`);
         generateWordMain();
         wrongMoves = 2;
     }
