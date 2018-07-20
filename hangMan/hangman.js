@@ -8,9 +8,9 @@ function startGame() {
         $('.letter').removeClass('already-selected');
         $('.letter').prop('disabled', false);
         $('#hangman').empty();
+        wrongMoves = 2;
         $('#hangman').append(`<img src="imagesHangMan/1.PNG">`);
         generateWordMain();
-        wrongMoves = 2;
     }
     else if ($('#start').text() === "Предавам се"){
         $('#start').text("Старт");
@@ -23,7 +23,6 @@ function updateInfo(symbol, id) {
     $(`#${id}`).prop("disabled", true);
     $(`#${id}`).addClass("already-selected");
     let resultContainer = $('h2');
-    console.log(word);
     if (word.includes(symbol)) {
         let currentResult = "";
         let currentGuess = $(resultContainer).text().split(' ').join("");

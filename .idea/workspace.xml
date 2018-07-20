@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35df28fd-4c1d-4031-9093-8b8027985022" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/hangMan/hangman.js" afterPath="$PROJECT_DIR$/hangMan/hangman.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -27,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hangman.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hangman.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hangMan/hangman.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2108">
-              <caret line="124" column="1" lean-forward="true" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -60,8 +59,8 @@
         <option value="$PROJECT_DIR$/bullsAndCows/bullsAndCows.html" />
         <option value="$PROJECT_DIR$/hangMan/hangman.css" />
         <option value="$PROJECT_DIR$/bullsAndCows/bullsAndCows.css" />
-        <option value="$PROJECT_DIR$/hangMan/hangman.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/hangMan/hangman.js" />
       </list>
     </option>
   </component>
@@ -186,12 +185,12 @@
       <option name="presentableId" value="Default" />
       <updated>1532113258243</updated>
       <workItem from="1532113259529" duration="2389000" />
-      <workItem from="1532115816083" duration="165000" />
+      <workItem from="1532115816083" duration="326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2554000" />
+    <option name="totallyTimeSpent" value="2715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1380" height="735" extended-state="0" />
@@ -317,18 +316,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hangMan/hangman.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="124" column="1" lean-forward="true" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="76" lean-forward="false" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hangMan/hangman.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="22" />
           <folding />
         </state>
       </provider>
