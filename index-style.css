@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+*{
+    font-family: 'Pacifico', cursive;
+}
+body{
+    background: #f4b541;
+    color: #2E4365;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    background: #4758A3;
+    color: white;
+    padding: 5px;
+    float: left;
+    list-style: none;
+    margin-right: 1em;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+nav ul li:hover{
+    border: 2px solid #4758A3;
+    background: white;
+}
+nav ul li:hover a{
+    color: #4758A3;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hang Man</title>
+    <link rel="stylesheet" type="text/css" href="hangman.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+</head>
+<body onload="disableBtns()">
+<header>
+    <h1>Бесеница</h1>
+    <button class="btn" id="back-btn"><a href="../index.html">Назад</a></button>
+</header>
+<main>
+    <section id="first-section">
+        <button class="letter" onclick="updateInfo('а', '1')" id="1">А</button>
+        <button class="letter" onclick="updateInfo('б', '2')" id="2">Б</button>
+        <button class="letter" onclick="updateInfo('в', '3')" id="3">В</button>
+        <button class="letter" onclick="updateInfo('г', '4')" id="4">Г</button>
+        <button class="letter" onclick="updateInfo('д', '5')" id="5">Д</button>
+        <button class="letter" onclick="updateInfo('е', '6')" id="6">Е</button>
+        <button class="letter" onclick="updateInfo('ж', '7')" id="7">Ж</button>
+        <button class="letter" onclick="updateInfo('з', '8')" id="8">З</button>
+        <button class="letter" onclick="updateInfo('и', '9')" id="9">И</button>
+        <button class="letter" onclick="updateInfo('й', '10')" id="10">Й</button>
+        <button class="letter" onclick="updateInfo('к', '11')" id="11">К</button>
+        <button class="letter" onclick="updateInfo('л', '12')" id="12">Л</button>
+        <button class="letter" onclick="updateInfo('м', '13')" id="13">М</button>
+        <button class="letter" onclick="updateInfo('н', '14')" id="14">Н</button>
+        <button class="letter" onclick="updateInfo('о', '15')" id="15">О</button>
+        <button class="letter" onclick="updateInfo('п', '16')" id="16">П</button>
+        <button class="letter" onclick="updateInfo('р', '17')" id="17">Р</button>
+        <button class="letter" onclick="updateInfo('с', '18')" id="18">С</button>
+        <button class="letter" onclick="updateInfo('т', '19')" id="19">Т</button>
+        <button class="letter" onclick="updateInfo('у', '20')" id="20">У</button>
+        <button class="letter" onclick="updateInfo('ф', '21')" id="21">Ф</button>
+        <button class="letter" onclick="updateInfo('x', '22')" id="22">Х</button>
+        <button class="letter" onclick="updateInfo('ц', '23')" id="23">Ц</button>
+        <button class="letter" onclick="updateInfo('ч', '24')" id="24">Ч</button>
+        <button class="letter" onclick="updateInfo('ш', '25')" id="25">Ш</button>
+        <button class="letter" onclick="updateInfo('щ', '26')" id="26">Щ</button>
+        <button class="letter" onclick="updateInfo('ъ', '27')" id="27">Ъ</button>
+        <button class="letter" onclick="updateInfo('ь', '28')" id="28">Ь</button>
+        <button class="letter" onclick="updateInfo('ю', '29')" id="29">Ю</button>
+        <button class="letter" onclick="updateInfo('я', '30')" id="30">Я</button>
+    </section>
+    <section id="second-section">
+        <button class="btn" id="start" onclick="startGame()">Старт</button>
+        <button class="btn" onclick="showRules()">Правила</button>
+        <select name="category" id="category">
+            <option value="birds">Птици</option>
+            <option value="capitals">Столици</option>
+        </select>
+        <article id="result">
+            <h2></h2>
+        </article>
+    </section>
+    <section id="third-section">
+        <article id="hangman">
+            <img src="images/1.PNG" alt="">
+        </article>
+    </section>
+</main>
+<footer>
+<p>Copyright &copy; Svetloslav Novoselski</p>
+</footer>
+<script src="hangman.js">
+</script>
+</body>
+</html>

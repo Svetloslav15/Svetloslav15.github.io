@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bulls and Cows</title>
+    <link rel="stylesheet" href="bullsAndCows.css" type="text/css">
+    <link rel="script" href="bullsAndCows.js">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"
+            integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+            crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+<main>
+    <section id="firstSection">
+        <h1>Бикове и Крави</h1>
+        <button class="btns" id="back-btn"><a href="../index.html">Назад</a></button>
+    </section>
+    <section id="secondSection">
+        <img src="images/bull.png" alt="bull" id="bull">
+        <section id="checkNum">
+            <button id="start" class="btns" onclick="generateNum(1)">Старт</button>
+            <button id="new-game" class="btns" onclick="generateNum(2)">Започни нова игра</button>
+            <input type="text" id="yourNum" placeholder="Въведи число">
+            <section id="buttonsCl">
+                <button id="play" class="btns" onclick="calculateBullsAndCows()">Провери</button>
+                <button id="surrenderBtn" class="btns" onclick="surrender()">Предавам се</button>
+                <button class="btns" onclick="showRules()">Правила</button>
+            </section>
+        </section>
+        <img src="images/cow-tail.png" alt="bull" id="cow">
+    </section>
+    <section id="thirdSection">
+        <textarea name="oldMoves" cols="35" rows="10" id="oldMoves" disabled="disabled"></textarea>
+    </section>
+    <input id="secretNum" disabled="disabled">
+</main>
+<footer>Copyright &copy; Svetloslav Novoselski</footer>
+<script src="bullsAndCows.js">solution()</script>
+</body>
+</html>
