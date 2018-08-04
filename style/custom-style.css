@@ -1,0 +1,13 @@
+main{
+    width: 85%;
+}
+
+section{
+    margin-bottom: 2em;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
