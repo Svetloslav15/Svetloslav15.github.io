@@ -46,12 +46,27 @@ $(() => {
         });
 
         this.get('#/logout', function (context) {
-            auth.logout()
-                .then(function () {
-                    auth.deleteCookies();
-                    notify.showInfo("Logout successfully!");
-                    context.redirect('#/home');
-                }).catch(notify.handleError);
+            swal({
+                title: "Logout",
+                text: `Are you sure that you want to logout?`,
+                icon: "warning",
+                buttons: ["No", "Yes"],
+                dangerMode: true,
+            }).then((willDelete) => {
+                if (willDelete) {
+                    auth.logout()
+                        .then(function () {
+                            auth.deleteCookies();
+                            notify.showInfo("Logout successfully!");
+                            context.redirect('#/home');
+                        }).catch(notify.handleError);
+                }
+                else{
+                    context.redirect("#/myProfile");
+                }
+            });
+
+
         });
 
         this.post('#/register', function (context) {
@@ -101,6 +116,10 @@ $(() => {
         });
 
         this.get("#/myProfile", function (context) {
+            if (!auth.isAuthed()) {
+                this.redirect('#/home');
+                return;
+            }
             remote.get("user", auth.getCookie("id"), "kinvey")
                 .then(function (res) {
                     context.isAuthed = auth.isAuthed();
@@ -144,12 +163,11 @@ $(() => {
                     context.username = auth.getCookie("username");
                     context.loadPartials({
                         navigation: "./templates/common/navigation.hbs",
-                        footer: "./templates/common/footer.hbs",
                         user: "./templates/searchProfiles/profile-template.hbs"
                     }).then(function () {
                         this.partial('./templates/searchProfilePage.hbs');
-                    })
-                })
+                    }).catch(notify.handleError);
+                }).catch(notify.handleError);
         });
 
         this.get("#/profile/:id", function (context) {
@@ -199,12 +217,26 @@ $(() => {
         });
 
         this.get("#/deleteQuestion/:id", function (context) {
-            let id = context.params.id.slice(1);
-            remote.remove("appdata", `messages/${id}`, "kinvey")
-                .then(function () {
-                    notify.showInfo("Message deleted successfully!");
+            swal({
+                title: "Delete message",
+                text: `Are you sure that you want to delete this message?`,
+                icon: "warning",
+                buttons: ["No", "Yes"],
+                dangerMode: true,
+            }).then((willDelete) => {
+                if (willDelete) {
+                    let id = context.params.id.slice(1);
+                    remote.remove("appdata", `messages/${id}`, "kinvey")
+                        .then(function () {
+                            notify.showInfo("Message deleted successfully!");
+                            context.redirect("#/myProfile");
+                        }).catch(notify.handleError);
+                }
+                else{
                     context.redirect("#/myProfile");
-                }).catch(notify.handleError);
+                }
+            });
+
         });
 
         this.post('#/createAnswer/:id', function (context) {
