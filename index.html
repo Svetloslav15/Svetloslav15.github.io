@@ -117,6 +117,7 @@
                             <li class="list-group-item"><a href="https://softuni.bg/trainings/1963/web-fundamentals-html-may-2018/open">Web Fundamentals</a></li>
                             <li class="list-group-item"><a href="https://softuni.bg/trainings/1969/js-advanced-june-2018">JavaScript Advanced</a></li>
                             <li class="list-group-item"><a href="https://softuni.bg/trainings/2032/javascript-for-front-end-july-2018">JavaScript for Front-End</a></li>
+                            <li class="list-group-item"><a href="https://softuni.bg/trainings/1970/js-applications-july-2018">JavaScript Applications</a></li>
                         </ul>
                     </div>
                 </div>
@@ -143,12 +144,13 @@
     <section id="projects">
         <h2 class="h2 text-center mb-3 font-weight-bold">Projects</h2>
         <hr class="w-25 bg-primary pl-auto">
-        <p class="text-center">I don't have big projects yet, but here are some of my works:</p>
+        <p class="text-center">Here are some of my works:</p>
         <ul class="list-group-flush">
             <li class="list-group-item"><a href="bullsAndCows/bullsAndCows.html">Bulls and Cows</a></li>
             <li class="list-group-item"><a href="hangMan/hangman.html">Hangman</a></li>
             <li class="list-group-item"><a href="AdvertisementSite/index.html">Advertisement Site</a></li>
-            <li class="list-group-item font-weight-bold text-uppercase"><a href="askinator/index.html">Askinator</a></li>
+            <li class="list-group-item text-uppercase"><a href="askinator/index.html">Askinator</a></li>
+            <li class="list-group-item "><a href="car-tube/index.html">Car Tube</a></li>
         </ul>
     </section>
 
@@ -184,6 +186,10 @@
                 <i class="fas fa-trophy text-warning"></i>
                 <a href="https://softuni.bg/certificates/details/57242/8d16e293">JavaScript for Front-End</a>
             </li>
+            <li>
+                <i class="fas fa-trophy text-warning"></i>
+                <a href="https://softuni.bg/certificates/details/57257/229dcce4">JavaScript Applications</a>
+            </li>
         </ul>
     </section>
 
@@ -199,43 +205,6 @@
     </section>
 </main>
 <footer class="bg-primary text-center p-3 text-white">Copyright &copy; Svetloslav Novoselski 2018</footer>
-<script>
-    (function () {
-        $('a[href*="#"]')
-        // Remove links that don't actually link to anything
-            .not('[href="#"]')
-            .not('[href="#0"]')
-            .click(function(event) {
-                // On-page links
-                if (
-                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-                    &&
-                    location.hostname == this.hostname
-                ) {
-                    // Figure out element to scroll to
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    // Does a scroll target exist?
-                    if (target.length) {
-                        // Only prevent default if animation is actually gonna happen
-                        event.preventDefault();
-                        $('html, body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000, function() {
-                            // Callback after animation
-                            // Must change focus!
-                            var $target = $(target);
-                            $target.focus();
-                            if ($target.is(":focus")) { // Checking if the target was focused
-                                return false;
-                            } else {
-                                $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-                                $target.focus(); // Set focus again
-                            };
-                        });
-                    }
-                }
-            });
-    }());</script>
+<script src="plugin.js"></script>
 </body>
 </html>
