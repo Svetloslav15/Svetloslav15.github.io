@@ -216,29 +216,6 @@ $(() => {
                 })
         });
 
-        this.get("#/deleteQuestion/:id", function (context) {
-            swal({
-                title: "Delete message",
-                text: `Are you sure that you want to delete this message?`,
-                icon: "warning",
-                buttons: ["No", "Yes"],
-                dangerMode: true,
-            }).then((willDelete) => {
-                if (willDelete) {
-                    let id = context.params.id.slice(1);
-                    remote.remove("appdata", `messages/${id}`, "kinvey")
-                        .then(function () {
-                            notify.showInfo("Message deleted successfully!");
-                            context.redirect("#/myProfile");
-                        }).catch(notify.handleError);
-                }
-                else{
-                    context.redirect("#/myProfile");
-                }
-            });
-
-        });
-
         this.post('#/createAnswer/:id', function (context) {
             let questionId = context.params.id.slice(1);
             let answer = context.params.answer;
