@@ -17,11 +17,11 @@ function preload() {
 function setup() {
     background(bg);
     canvas = createCanvas(windowWidth, windowHeight);
-	canvas.id("field");
-	$('#field').on("click", function () {
+    canvas.id("field");
+    $('#field').on("click", function () {
         bird.up();
     });
-	bird = new Bird();
+    bird = new Bird();
     pipes.push(new Pipe());
     scoreDiv = createDiv(score);
     scoreDiv.id("score");
@@ -38,10 +38,10 @@ function draw() {
         if (pipes[index].hits(bird)){
             score = 0;
         }
-
-        if (pipes[index].x + pipes[index].width === bird.x){
+        else if (pipes[index].x === 50){
             score++;
         }
+
         if (pipes[index].offscreen()){
             pipes.splice(index, 1);
         }
@@ -57,7 +57,7 @@ function draw() {
 }
 
 function keyPressed() {
-     if (keyCode === 32 || keyCode === " "){
+    if (keyCode === 32 || keyCode === " "){
         bird.up();
     }
 }
