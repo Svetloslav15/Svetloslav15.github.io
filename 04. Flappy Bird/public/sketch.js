@@ -6,6 +6,7 @@ var bg;
 var topPipe;
 var bottomPipe;
 let scoreDiv;
+let canvas;
 
 function preload() {
     s1 = loadImage('../images/bird.gif');
@@ -14,8 +15,12 @@ function preload() {
     bottomPipe = loadImage('../images/bottom.png');
 }
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	background(bg);
+    background(bg);
+    canvas = createCanvas(windowWidth, windowHeight);
+	canvas.id("field");
+	$('#field').on("click", function () {
+        bird.up();
+    });
 	bird = new Bird();
     pipes.push(new Pipe());
     scoreDiv = createDiv(score);
