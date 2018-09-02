@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5543d25a-65f7-4238-90f7-03b799b6f0c7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/04. Flappy Bird/public/sketch.js" afterPath="$PROJECT_DIR$/04. Flappy Bird/public/sketch.js" />
+      <change beforePath="$PROJECT_DIR$/04. Flappy Bird/public/bird.js" afterPath="$PROJECT_DIR$/04. Flappy Bird/public/bird.js" />
+      <change beforePath="$PROJECT_DIR$/askinator/scripts/app.js" afterPath="$PROJECT_DIR$/askinator/scripts/app.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,31 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sketch.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Flappy Bird/public/sketch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pipe.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04. Flappy Bird/public/pipe.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04. Flappy Bird/public/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="153">
+              <caret line="161" column="16" lean-forward="true" selection-start-line="161" selection-start-column="16" selection-end-line="161" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -79,10 +60,11 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/style/plugin.js" />
         <option value="$PROJECT_DIR$/askinator/templates/myProfile/message.hbs" />
-        <option value="$PROJECT_DIR$/askinator/scripts/app.js" />
         <option value="$PROJECT_DIR$/index-bg.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/04. Flappy Bird/public/sketch.js" />
+        <option value="$PROJECT_DIR$/04. Flappy Bird/public/bird.js" />
+        <option value="$PROJECT_DIR$/askinator/scripts/app.js" />
       </list>
     </option>
   </component>
@@ -150,22 +132,6 @@
             <path>
               <item name="Svetloslav15.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="Svetloslav15.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Svetloslav15.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Svetloslav15.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="04. Flappy Bird" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Svetloslav15.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Svetloslav15.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="04. Flappy Bird" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Svetloslav15.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Svetloslav15.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,12 +204,14 @@
       <workItem from="1535320321927" duration="13000" />
       <workItem from="1535320356771" duration="545000" />
       <workItem from="1535357779933" duration="1848000" />
-      <workItem from="1535378459821" duration="133000" />
+      <workItem from="1535378459821" duration="1103000" />
+      <workItem from="1535440054865" duration="613000" />
+      <workItem from="1535896272775" duration="170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24884000" />
+    <option name="totallyTimeSpent" value="26637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -281,13 +249,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index-bg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3315">
-          <caret line="195" column="54" lean-forward="false" selection-start-line="195" selection-start-column="54" selection-end-line="195" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -546,24 +507,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/askinator/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/askinator/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/askinator/templates/myProfile/message.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -575,10 +522,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Flappy Bird/public/sketch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="153" column="109" lean-forward="false" selection-start-line="153" selection-start-column="109" selection-end-line="153" selection-end-column="109" />
+        <state relative-caret-position="544">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Flappy Bird/public/bird.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/askinator/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="269" column="1" lean-forward="false" selection-start-line="269" selection-start-column="1" selection-end-line="269" selection-end-column="1" />
+          <folding>
+            <element signature="e#138#318#0" expanded="false" />
+            <element signature="e#361#824#0" expanded="false" />
+            <element signature="e#871#1216#0" expanded="false" />
+            <element signature="e#1260#1596#0" expanded="false" />
+            <element signature="e#1648#2389#0" expanded="false" />
+            <element signature="e#2444#3738#0" expanded="false" />
+            <element signature="e#3790#4366#0" expanded="false" />
+            <element signature="e#6879#7788#0" expanded="false" />
+            <element signature="e#10191#10630#0" expanded="false" />
+            <element signature="e#10693#11118#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/askinator/templates/myProfile/message.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -591,29 +583,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Flappy Bird/public/sketch.js">
+    <entry file="file://$PROJECT_DIR$/04. Flappy Bird/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="62">
+          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04. Flappy Bird/public/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="153">
+          <caret line="161" column="16" lean-forward="true" selection-start-line="161" selection-start-column="16" selection-end-line="161" selection-end-column="16" />
           <folding />
         </state>
       </provider>
