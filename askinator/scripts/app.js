@@ -80,8 +80,8 @@ $(() => {
                 email === "" || password === "" || repeatPass === "") {
                 notify.showError("Empty field!");
             }
-            else if (username.length < 5) {
-                notify.showError("Username must be at least 5 symbols!");
+            else if (username.length >= 14 || username.length < 5){
+                notify.showError("Username must be between 5 and 13 symbols!")
             }
             else if (password !== repeatPass) {
                 notify.showError("Passwords not match!");
@@ -187,34 +187,27 @@ $(() => {
             let id = context.params.id.slice(1);
             context.isAuthed = auth.isAuthed();
             context.username = auth.getCookie("username");
+            context.username = "dragan";
             remote.get("user", `${id}`, "kinvey")
                 .then(function (res) {
                     context.user = res.username;
                     context.id = res._id;
                     remote.get("appdata", `messages?query={"receiver":"${res._id}"}&sort={"_kmd.ect": -1}`, "kinvey")
                         .then(function (messages) {
-                            remote.get("appdata", "answers", "kinvey")
-                                .then(function (answers) {
-                                    messages.forEach((el, index) => {
-                                        el.rank = index + 1;
-                                        el.date = calcTime(el._kmd.ect);
-                                        let newAnswers = answers.filter(x => x.questionId === el._id);
-                                        el.answer = "";
-                                        if (newAnswers.length !== 0){
-                                            el.answer = newAnswers[newAnswers.length - 1].content;
-                                        }
-                                    });
-                                    context.messagesCount = messages.length;
-                                    context.messages = messages;
-                                    context.loadPartials({
-                                        navigation: "./templates/common/navigation.hbs",
-                                        infoSection: "./templates/profileDetails/info-section.hbs",
-                                        listMessages: "./templates/profileDetails/list-messages.hbs",
-                                        message: "./templates/profileDetails/message.hbs"
-                                    }).then(function () {
-                                        this.partial("./templates/profileDetailsPage.hbs");
-                                    }).catch(notify.handleError);
-                                })
+                            messages.forEach((el, index) => {
+                                el.rank = index + 1;
+                                el.date = calcTime(el._kmd.ect);
+                            });
+                            context.messagesCount = messages.length;
+                            context.messages = messages;
+                            context.loadPartials({
+                                navigation: "./templates/common/navigation.hbs",
+                                infoSection: "./templates/profileDetails/info-section.hbs",
+                                listMessages: "./templates/profileDetails/list-messages.hbs",
+                                message: "./templates/profileDetails/message.hbs"
+                            }).then(function () {
+                                this.partial("./templates/profileDetailsPage.hbs");
+                            })
                         })
                 }).catch(notify.handleError);
         });
