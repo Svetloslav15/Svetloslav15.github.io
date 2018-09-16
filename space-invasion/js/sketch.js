@@ -77,20 +77,20 @@ function checkHit(obstacle) {
     let playerCPoint = createVector(player.x, player.y + player.height);
     let playerDPoint = createVector(player.x + player.width, player.y + player.height);
 
-    if (playerAPoint.x >= obstacle.x && playerAPoint.x <= obstacle.x + obstacle.width &&
-        playerAPoint.y >= obstacle.y && playerAPoint.y <= obstacle.y + obstacle.height){
+    if (playerAPoint.x - 20 >= obstacle.x && playerAPoint.x <= obstacle.x + obstacle.width &&
+        playerAPoint.y - 10 >= obstacle.y && playerAPoint.y <= obstacle.y + obstacle.height){
         return true;
     }
-    if (playerBPoint.x >= obstacle.x && playerBPoint.x <= obstacle.x + obstacle.width &&
-        playerBPoint.y >= obstacle.y && playerBPoint.y <= obstacle.y + obstacle.height){
+    if (playerBPoint.x - 20 >= obstacle.x && playerBPoint.x <= obstacle.x + obstacle.width &&
+        playerBPoint.y - 10 >= obstacle.y && playerBPoint.y <= obstacle.y + obstacle.height){
     return true;
     }
-    if (playerCPoint.x >= obstacle.x && playerCPoint.x <= obstacle.x + obstacle.width &&
-        playerCPoint.y >= obstacle.y && playerCPoint.y <= obstacle.y + obstacle.height){
+    if (playerCPoint.x - 20 >= obstacle.x && playerCPoint.x <= obstacle.x + obstacle.width &&
+        playerCPoint.y - 10 >= obstacle.y && playerCPoint.y <= obstacle.y + obstacle.height){
         return true;
     }
-    if (playerDPoint.x >= obstacle.x && playerDPoint.x <= obstacle.x + obstacle.width &&
-        playerDPoint.y >= obstacle.y && playerDPoint.y <= obstacle.y + obstacle.height){
+    if (playerDPoint.x - 20 >= obstacle.x && playerDPoint.x <= obstacle.x + obstacle.width &&
+        playerDPoint.y - 10 >= obstacle.y && playerDPoint.y <= obstacle.y + obstacle.height){
         return true;
     }
     return false;
