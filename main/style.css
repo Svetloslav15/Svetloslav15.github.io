@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint|Fredericka+the+Great|Kalam|Nothing+You+Could+Do|Poiret+One|Sacramento');
+#logo{
+    font-family: 'Finger Paint', cursive;
+    font-size: 2em;
+}
+#home-header{
+    background: url("../images/me1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40em;
+    /*opacity: 0.9;*/
+}
+#name{
+    padding-top: 5em;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+.menu-link:hover{
+    transform: scale(1.1);
+}
+.shadow{
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 0.95);
+}
+.p-top-5em{
+    padding-top: 5em;
+}
+.work-image{
+    width: 100%;
+    opacity: 0.8;
+}
+a, a:hover{
+    text-decoration: none;
+}
+i{
+    font-size: 3em;
+}
+.image{
+    width: 90%;
+    opacity: 0.9;
+}
+.image-100{
+    width: 100%;
+    opacity: 0.9;
+}

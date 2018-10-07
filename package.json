@@ -1,5 +1,5 @@
 {
-  "name": "Askinator",
+  "name": "SN-Portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "handlebars": "^4.0.11",
+    "bootstrap": "^4.1.3",
+    "handlebars": "^4.0.12",
     "jquery": "^3.3.1",
     "sammy": "^0.7.6",
     "sweetalert": "^2.1.0"
