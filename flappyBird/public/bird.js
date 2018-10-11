@@ -4,6 +4,7 @@ class Bird{
         this.y = height / 2;
         this.gravity = 0.6;
         this.velocity = 0;
+        this.r = 24 * height / 600;
     }
 
     show(){
@@ -14,11 +15,8 @@ class Bird{
         this.velocity += this.gravity;
         this.y += this.velocity;
         if (this.y >= height){
-            this.y = height;
+            this.y = height - 10;
             this.velocity = 0;
-        }
-        else if (this.y === 0){
-            this.y = 0;
         }
     }
 

@@ -6,7 +6,8 @@ var bg;
 var topPipe;
 var bottomPipe;
 let scoreDiv;
-let canvas;
+let enterDiv;
+let died = false;
 
 function preload() {
     s1 = loadImage('../images/bird.gif');
@@ -14,18 +15,19 @@ function preload() {
     topPipe = loadImage('../images/top.png');
     bottomPipe = loadImage('../images/bottom.png');
 }
+
 function setup() {
+    createCanvas(windowWidth, windowHeight);
     background(bg);
-    canvas = createCanvas(windowWidth, windowHeight);
-    canvas.id("field");
-    $('#field').on("click", function () {
-        bird.up();
-    });
     bird = new Bird();
     pipes.push(new Pipe());
     scoreDiv = createDiv(score);
     scoreDiv.id("score");
     scoreDiv.position(width / 2, 30);
+    enterDiv = createDiv("Press ENTER to play again!");
+    enterDiv.hide();
+    enterDiv.id("enterDiv");
+    enterDiv.position(width / 2, 90);
 }
 
 function draw() {
@@ -33,31 +35,48 @@ function draw() {
 
     for (let index = 0; index < pipes.length; index++) {
         pipes[index].show();
-        pipes[index].update();
-
-        if (pipes[index].hits(bird)){
-            score = 0;
-        }
-        else if (pipes[index].x === 50){
-            score++;
+        if (!died) {
+            pipes[index].update();
         }
 
-        if (pipes[index].offscreen()){
-            pipes.splice(index, 1);
+        if (pipes[index].hits(bird)) {
+            died = true;
         }
+        if (!died) {
+            if (pipes[index].x + pipes[index].width <= bird.x) {
+                pipes.splice(index, 1);
+                score++;
+            }
+        }
+
     }
 
     bird.show();
-    bird.update();
+    if (!died) {
+        bird.update();
+    }
 
-    if (frameCount % 70 === 0){
+    if (frameCount % 70 === 0) {
         pipes.push(new Pipe());
     }
-    $('#score').text(score);
+    let text = score.toString();
+    if (died) {
+        text = "Your score is " + score + "!";
+    }
+    document.getElementById("score").textContent = text;
+    if (died){
+        $('#enterDiv').show();
+    }
 }
 
 function keyPressed() {
-    if (keyCode === 32 || keyCode === " "){
+    if (keyCode === 32) {
         bird.up();
+    }
+    if (keyCode === 13) {
+        died = false;
+        score = 0;
+        $('#enterDiv').hide();
+        pipes.length = 0;
     }
 }

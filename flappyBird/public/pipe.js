@@ -18,18 +18,10 @@ class Pipe{
         this.x -= this.speed;
     }
 
-    offscreen(){
-        if (this.x < -this.width){
-            return true;
-        }
-        return false;
-    }
-
     hits(bird){
-        if (bird.y < this.top || bird.y > height - this.bottom){
-            if (bird.x > this.x && bird.x < this.x + this.width) {
-                return true;
-            }
+        if ((bird.y + 60 >= height - this.bottom + 10 && bird.x + 50 > this.x) ||
+            (bird.y + 10 <= this.top && bird.x + 50 > this.x)){
+            return true;
         }
         return false;
     }
