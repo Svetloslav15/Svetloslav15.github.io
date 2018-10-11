@@ -1,12 +1,12 @@
 let snake;
 var scl = 20;
 let food;
-let speechRec;
+var speechRec;
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	snake = new Snake(0, 0);
-	frameRate(10);
-	pickLocation();
+    createCanvas(windowWidth, windowHeight);
+    snake = new Snake(0, 0);
+    frameRate(10);
+    pickLocation();
     speechRec = new p5.SpeechRec('en-US', gotSpeech);
     speechRec.start(true, true);
 }
@@ -34,27 +34,27 @@ function gotSpeech() {
     }
 }
 function draw() {
-	background(51);
+    background(51);
     snake.died();
-	snake.update();
+    snake.update();
 
-	fill(255, 0, 100);
-	if (snake.eat(food)){
-		pickLocation();
-	}
-	rect(food.x, food.y, scl, scl);
+    fill(255, 0, 100);
+    if (snake.eat(food)){
+        pickLocation();
+    }
+    rect(food.x, food.y, scl, scl);
 }
 function pickLocation() {
-	let cols = floor(width / scl);
-	let rows = floor(height / scl);
-	food = createVector(floor(random(cols)), floor(random(rows)));
-	food.mult(scl);
+    let cols = floor(width / scl);
+    let rows = floor(height / scl);
+    food = createVector(floor(random(cols)), floor(random(rows)));
+    food.mult(scl);
 }
 function keyPressed() {
-	if (keyCode === UP_ARROW){
-		snake.direction(0, -1);
-	}
-	else if (keyCode === DOWN_ARROW){
+    if (keyCode === UP_ARROW){
+        snake.direction(0, -1);
+    }
+    else if (keyCode === DOWN_ARROW){
         snake.direction(0, 1);
     }
     else if (keyCode === LEFT_ARROW){
