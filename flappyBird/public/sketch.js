@@ -74,9 +74,11 @@ function keyPressed() {
         bird.up();
     }
     if (keyCode === 13) {
-        died = false;
-        score = 0;
-        $('#enterDiv').hide();
-        pipes.length = 0;
+        if (died) {
+            died = false;
+            score = 0;
+            $('#enterDiv').hide();
+            pipes.length = 0;
+        }
     }
 }
