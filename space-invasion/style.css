@@ -20,6 +20,11 @@ body{
 }
 #refreshDiv{
     font-size: 2em;
+    color: white;
+    background: #4758A3;
+    border-radius: 15px;
+    padding: 1em;
+    border: 1px solid white;
 }
 h1{
     text-align: center;

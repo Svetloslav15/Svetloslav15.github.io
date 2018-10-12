@@ -27,7 +27,7 @@ function setup() {
     enterDiv = createDiv("Press ENTER to play again!");
     enterDiv.hide();
     enterDiv.id("enterDiv");
-    enterDiv.position(width / 2, 90);
+    enterDiv.position(width / 2 - 50, 90);
 }
 
 function draw() {

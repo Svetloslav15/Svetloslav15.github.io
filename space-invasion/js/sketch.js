@@ -16,7 +16,7 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(windowWidth / 2 + 100, windowHeight / 2 + 200);
+    createCanvas(windowWidth / 2 + 100, windowHeight / 2 + 180);
     background(bg);
     player = new Player(width / 2, height - 60);
     for (let i = 0; i < 2; i++) {
@@ -26,9 +26,9 @@ function setup() {
     scoreDiv.id("score");
     scoreDiv.position(windowWidth / 2, 30);
 
-    refreshDiv = createDiv('Press ENTER to start the game!');
+    refreshDiv = createDiv('Press ENTER to play again!');
     refreshDiv.id('refreshDiv');
-    refreshDiv.position(windowWidth / 2 - 200, windowHeight / 2 + 300);
+    refreshDiv.position(windowWidth / 2 - 200, windowHeight / 2 - 50);
 }
 
 function draw() {
@@ -43,7 +43,7 @@ function draw() {
     if (frameCount % 20 === 0) {
         addNewObstacle(boolean);
     }
-    if (frameCount % 20 === 0) {
+    if (frameCount % 15 === 0) {
         addNewPellet(boolean);
     }
     for (let index = 0; index < obstacles.length; index++) {
@@ -51,7 +51,6 @@ function draw() {
 
         for (let i = 0; i < pellets.length; i++) {
             let currentPellet = pellets[i];
-            console.log(currentPellet + "<->" + currentObstacle + "index:" + index + " i: " + i);
             if (currentObstacle.x <= currentPellet.x &&
                 currentObstacle.x + currentObstacle.width >= currentPellet.x &&
                 currentObstacle.y <= currentPellet.y &&
@@ -128,10 +127,11 @@ function checkHit(obstacle) {
 
 function keyPressed() {
     if (keyCode === 13) {
-        boolean = true;
-        obstacles.splice(0, obstacles.length);
-        score = 0;
-
+        if (!boolean){
+            boolean = true;
+            obstacles.splice(0, obstacles.length);
+            score = 0;
+        }
     }
 }
 
