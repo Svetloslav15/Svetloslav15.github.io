@@ -1,0 +1,7 @@
+@media all and (max-width: 991px) {
+    #my-profile-div{
+        display: none;
+        top: 75px;
+        right:0;
+    }
+}

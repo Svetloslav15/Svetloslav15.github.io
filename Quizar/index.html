@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quizar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="./styles/bootstrap.min.css" type="text/css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="styles/responsive.css" type="text/css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand logo font-weight-bold ml-3" href="#" id="logo">Quizar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav m-auto text-center">
+                <li class="nav-item row">
+                    <i class="fas fa-gamepad mt-2 ml-5 mr-1"></i>
+                    <a class="nav-link mr-4" href="#">Започни игра</a>
+                </li>
+                <li class="nav-item row ml-4 mr-4">
+                    <i class="fas fa-comment mt-2 ml-5 mr-1"></i>
+                    <a class="nav-link mr-4" href="#">Чат стая</a>
+                </li>
+                <li class="nav-item row ml-4 mr-4">
+                    <i class="fas fa-info icon  mt-2 ml-5 mr-1"></i>
+                    <a class="nav-link mr-4" href="#">Правила</a>
+                </li>
+            </ul>
+        </div>
+        <div class="profile-icon text-white row">
+            <div class="m-auto row">
+                <p class="ml-1 mt-3 mr-3 h5 font-weight-bold">Здравей, Svetloslav!</p>
+                <i class="fas fa-user-circle h1 mr-5" id="my-profile-icon"></i>
+            </div>
+        </div>
+    </nav>
+
+</header>
+<main>
+    {{> navigation}}
+    <section class="jumbotron rounded border w-85 mx-auto mt-4">
+        <h2 class="text-center pb-3">Register</h2>
+        <form action="" method="post">
+            <div class="row offset-lg-1">
+                <div class="col-lg-5">
+                    <p class="d-inline-block mb-1 text-dark">Enter first name:</p>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fas fa-user text-white"></i></div>
+                        </div>
+                        <input type="text" class="form-control" id="firstnameInput" placeholder="First name...">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <p class="d-inline-block mb-1 text-dark">Enter last name:</p>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fas fa-user text-white"></i></div>
+                        </div>
+                        <input type="text" class="form-control" id="lastnameInput" placeholder="Last name...">
+                    </div>
+                </div>
+            </div>
+            <div class="row offset-lg-1">
+                <div class="col-lg-5">
+                    <p class="d-inline-block mb-1 text-dark">Enter username:</p>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fas fa-user text-white"></i></div>
+                        </div>
+                        <input type="text" class="form-control" id="usernameInput" placeholder="Username...">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <p class="d-inline-block mb-1 text-dark">Enter e-mail:</p>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fas fa-envelope"></i></div>
+                        </div>
+                        <input type="email" class="form-control" id="emailInput" placeholder="E-mail...">
+                    </div>
+                </div>
+            </div>
+            <div class="row offset-lg-1 mb-2">
+                <div class="col-lg-5">
+                    <p class="d-inline-block mb-1 text-dark">Роля:</p>
+                    <select class="custom-select" id="role">
+                        <option value="student" selected>Ученик</option>
+                        <option value="teacher">Учител</option>
+                    </select>
+                </div>
+                <div class="col-lg-5" id="class-menu">
+                    <p class="d-inline-block mb-1 text-dark">Клас:</p>
+                    <select class="custom-select" id="grade">
+                        <option value="5">5 клас</option>
+                        <option value="6">6 клас</option>
+                        <option value="7">7 клас</option>
+                        <option value="8" selected>8 клас</option>
+                        <option value="9">9 клас</option>
+                        <option value="10">10 клас</option>
+                        <option value="11">11 клас</option>
+                        <option value="12">12 клас</option>
+                    </select>
+                </div>
+                <div class="col-lg-5 display-none" id="subject-menu">
+                    <p class="d-inline-block mb-1 text-dark">Предмет:</p>
+                    <select class="custom-select" id="subject"multiple>
+                        <option value="bulgarian">Български език и литература</option>
+                        <option value="english">Английски език</option>
+                        <option value="german">Немски език</option>
+                        <option value="russian">Руски език</option>
+                        <option value="maths" selected>Математика</option>
+                        <option value="informatics">Информатика</option>
+                        <option value="technologies">Информационни технологии</option>
+                        <option value="history">История</option>
+                        <option value="geography">География</option>
+                        <option value="psychology">Психология и логика</option>
+                        <option value="biologie">Биология</option>
+                        <option value="physics">Физика и астрономия</option>
+                        <option value="physics">Философия</option>
+                        <option value="science">Химия и опазване на околната среда</option>
+                        <option value="music">Музика</option>
+                        <option value="world-and-personality">Свят и личност</option>
+                        <option value="art">Изобразително изкуство</option>
+                        <option value="sport">Физическо възпитание и спорт</option>
+                    </select>
+                    <p class="font-italic h6">* Press CTRL if you want to select more than once subjects</p>
+                </div>
+            </div>
+            <div class="row offset-lg-1">
+                <div class="col-lg-5">
+                    <p class="d-inline-block mb-1 text-dark">Enter your password:</p>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fas fa-lock"></i></div>
+                        </div>
+                        <input type="password" class="form-control" id="passwordInput" placeholder="Password...">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <p class="d-inline-block mb-1 text-dark">Repeat your password:</p>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fas fa-lock"></i></div>
+                        </div>
+                        <input type="password" class="form-control" id="repeatedPasswordInput" placeholder="Repeated password...">
+                    </div>
+                </div>
+            </div>
+            <div class="d-block text-center">
+                <input type="submit" class="btn btn-outline-info p-3 m-3 mx-auto" value="SUBMIT">
+                <p class="mt-2">Already have an account? <a href="#" class="btn btn-info p-2 ml-2">Sign In</a></p>
+            </div>
+        </form>
+    </section>
+</main>
+{{#if isAuthed}}
+<div class="menu col-lg-3 float-right p-3" id="my-profile-div">
+    <div class="row menu-div">
+        <i class="fas fa-user-circle h1 ml-3"></i>
+        <div class="ml-3">
+            <p>{{firstname}} {{lastname}}</p>
+            <p>{{points}} XP</p>
+        </div>
+    </div>
+    <hr class="text-center bg-white mb-4">
+    <ul class="navbar-nav">
+        <li class="nav-item row mx-2 mb-3">
+            <i class="fas fa-info mr-3 icon mt-1"></i>
+            <a href="#" class="nav-link text-white menu-profile-link">Обща информация</a>
+        </li>
+        <li class="nav-item row mx-2 mb-3">
+            <i class="fas fa-user-secret mr-3 icon mt-1"></i>
+            <a href="#" class="nav-link text-white menu-profile-link">Дневни мисии</a>
+        </li>
+        <li class="nav-item row mx-2 mb-3">
+            <i class="fas fa-question-circle mt-2 mr-3"></i>
+            <a class="nav-link mr-4 text-white menu-profile-link" href="#">Анкети</a>
+        </li>
+        <li class="nav-item row mx-2 mb-3">
+            <i class="fas fa-th-large mt-2 mr-3"></i>
+            <a class="nav-link mr-4 text-white menu-profile-link" href="#">Блог статии</a>
+        </li>
+        {{#if isAdminOrTeacher}}
+        <li class="nav-item row mx-2 mb-3">
+            <i class="fas fa-plus-circle mr-3 icon mt-1"></i>
+            <a href="#" class="nav-link text-white menu-profile-link">Добави въпрос</a>
+        </li>
+        {{/if}}
+        {{#if isAdmin}}
+        <li class="nav-item row mx-2 mb-3">
+            <i class="fas fa-unlock mr-3 icon mt-1"></i>
+            <a href="#" class="nav-link text-white menu-profile-link">Администрация</a>
+        </li>
+        {{/if}}
+        <li class="nav-item row mx-2 mb-3">
+            <i class="fas fa-sign-out-alt mr-3 icon mt-1"></i>
+            <a href="#" class="nav-link text-white menu-profile-link">Излезни</a>
+        </li>
+        <li class="nav-item m-auto">
+            <i class="fas fa-arrow-circle-up menu-profile-link" id="menu-arrow-collapse"></i>
+        </li>
+    </ul>
+</div>
+{{> navigation}}
+<section class="jumbotron bg-light mt-5 rounded mx-auto border w-85" id="login-section">
+    <h2 class="h2 text-center mb-3">Login</h2>
+    <div class="mx-auto text-center">
+        <form class="text-center" method="post" action="#/login">
+            <div class="form-group col-md-3 m-md-auto demo">
+                <label for="exampleInputUsername">Username:</label>
+                <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fas fa-user text-white"></i></div>
+                    <input type="text" class="form-control" name="username" id="exampleInputUsername" placeholder="Username...">
+                </div>
+            </div>
+            <div class="form-group col-md-3 mx-md-auto mt-4">
+                <label for="exampleInputPassword1">Password:</label>
+                <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fas fa-lock text-white"></i></div>
+                    <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Password...">
+                </div>
+            </div>
+            <div class="d-block mt-4">
+                <input type="submit" class="btn btn-outline-info p-md-3 ml-5 mt-2 m-auto text-uppercase h5 submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <div>
+        <p class="text-center mt-4 h7">Don't have an account? <a href="#" class="btn btn-info p-1 ml-2 h6">Sign Up</a></p>
+    </div>
+</section>
+</body>
+<script src="./js.js"></script>
+</html>

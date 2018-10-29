@@ -1,0 +1,49 @@
+{{#if isAuthed}}
+    <div class="menu col-lg-3 float-right p-3" id="my-profile-div">
+        <div class="row menu-div">
+            <i class="fas fa-user-circle h1 ml-3"></i>
+            <div class="ml-3">
+                <p>{{firstname}} {{lastname}}</p>
+                <p>{{points}} XP</p>
+            </div>
+        </div>
+        <hr class="text-center bg-white mb-4">
+        <ul class="navbar-nav">
+            <li class="nav-item row mx-2 mb-3">
+                <i class="fas fa-info mr-3 icon mt-1"></i>
+                <a href="#" class="nav-link text-white menu-profile-link">Обща информация</a>
+            </li>
+            <li class="nav-item row mx-2 mb-3">
+                <i class="fas fa-user-secret mr-3 icon mt-1"></i>
+                <a href="#" class="nav-link text-white menu-profile-link">Дневни мисии</a>
+            </li>
+            <li class="nav-item row mx-2 mb-3">
+                <i class="fas fa-question-circle mt-2 mr-3"></i>
+                <a class="nav-link mr-4 text-white menu-profile-link" href="#">Анкети</a>
+            </li>
+            <li class="nav-item row mx-2 mb-3">
+                <i class="fas fa-th-large mt-2 mr-3"></i>
+                <a class="nav-link mr-4 text-white menu-profile-link" href="#">Блог статии</a>
+            </li>
+            {{#if isAdminOrTeacher}}
+                <li class="nav-item row mx-2 mb-3">
+                    <i class="fas fa-plus-circle mr-3 icon mt-1"></i>
+                    <a href="#" class="nav-link text-white menu-profile-link">Добави въпрос</a>
+                </li>
+            {{/if}}
+            {{#if isAdmin}}
+                <li class="nav-item row mx-2 mb-3">
+                    <i class="fas fa-unlock mr-3 icon mt-1"></i>
+                    <a href="#" class="nav-link text-white menu-profile-link">Администрация</a>
+                </li>
+            {{/if}}
+            <li class="nav-item row mx-2 mb-3">
+                <i class="fas fa-sign-out-alt mr-3 icon mt-1"></i>
+                <a href="#" class="nav-link text-white menu-profile-link">Излезни</a>
+            </li>
+            <li class="nav-item m-auto">
+                <i class="fas fa-arrow-circle-up menu-profile-link" id="menu-arrow-collapse"></i>
+            </li>
+        </ul>
+    </div>
+{{/if}}
