@@ -3,500 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c7875a10-086c-4d0d-b5fb-923d61f0fec4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Quizar/.idea/Quizar.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/.idea/dictionaries/Martin.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/.idea/watcherTasks.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/js.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/.bin/mime" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/.bin/mime.cmd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/accepts/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/accepts/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/accepts/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/accepts/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/accepts/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/array-flatten/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/array-flatten/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/array-flatten/array-flatten.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/array-flatten/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/body-parser/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/body-parser/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/body-parser/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/body-parser/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/body-parser/lib/read.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/body-parser/lib/types/json.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/body-parser/lib/types/raw.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/body-parser/lib/types/text.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/body-parser/lib/types/urlencoded.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/body-parser/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/css/bootstrap-grid.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/css/bootstrap-grid.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/css/bootstrap-grid.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/css/bootstrap-grid.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/css/bootstrap-reboot.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/css/bootstrap-reboot.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/css/bootstrap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/css/bootstrap.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/css/bootstrap.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/js/bootstrap.bundle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/js/bootstrap.bundle.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/js/bootstrap.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/js/bootstrap.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/dist/js/bootstrap.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/alert.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/alert.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/button.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/button.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/carousel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/carousel.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/collapse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/collapse.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/dropdown.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/dropdown.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/modal.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/modal.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/popover.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/popover.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/scrollspy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/scrollspy.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/tab.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/tab.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/tooltip.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/tooltip.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/dist/util.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/src/alert.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/src/button.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/src/carousel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/src/collapse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/src/dropdown.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/src/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/src/modal.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/src/popover.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/src/scrollspy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/src/tab.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/src/tooltip.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/js/src/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_alert.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_badge.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_breadcrumb.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_button-group.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_buttons.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_card.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_carousel.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_close.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_code.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_custom-forms.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_dropdown.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_forms.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_functions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_grid.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_images.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_input-group.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_jumbotron.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_list-group.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_media.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_modal.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_nav.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_navbar.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_pagination.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_popover.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_print.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_progress.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_reboot.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_root.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_tables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_tooltip.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_transitions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_type.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_utilities.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/bootstrap-grid.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/bootstrap-reboot.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/bootstrap.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_alert.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_background-variant.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_badge.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_border-radius.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_box-shadow.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_breakpoints.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_buttons.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_caret.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_clearfix.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_float.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_forms.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_gradients.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_grid-framework.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_grid.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_hover.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_image.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_list-group.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_lists.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_nav-divider.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_pagination.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_reset-text.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_resize.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_screen-reader.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_size.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_table-row.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_text-emphasis.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_text-hide.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_text-truncate.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_transition.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/mixins/_visibility.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/utilities/_align.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/utilities/_background.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/utilities/_borders.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/utilities/_clearfix.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/utilities/_display.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/utilities/_embed.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/utilities/_flex.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/utilities/_float.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/utilities/_position.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/utilities/_screenreaders.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/utilities/_shadows.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/utilities/_sizing.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/utilities/_spacing.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/utilities/_text.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bootstrap/scss/utilities/_visibility.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bytes/History.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bytes/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bytes/Readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bytes/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/bytes/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/content-disposition/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/content-disposition/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/content-disposition/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/content-disposition/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/content-disposition/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/content-type/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/content-type/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/content-type/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/content-type/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/content-type/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/cookie-signature/.npmignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/cookie-signature/History.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/cookie-signature/Readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/cookie-signature/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/cookie-signature/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/cookie/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/cookie/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/cookie/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/cookie/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/cookie/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/debug/.coveralls.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/debug/.eslintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/debug/.npmignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/debug/.travis.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/debug/CHANGELOG.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/debug/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/debug/Makefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/debug/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/debug/component.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/debug/karma.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/debug/node.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/debug/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/debug/src/browser.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/debug/src/debug.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/debug/src/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/debug/src/inspector-log.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/debug/src/node.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/depd/History.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/depd/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/depd/Readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/depd/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/depd/lib/browser/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/depd/lib/compat/callsite-tostring.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/depd/lib/compat/event-listener-count.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/depd/lib/compat/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/depd/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/destroy/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/destroy/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/destroy/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/destroy/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/ee-first/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/ee-first/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/ee-first/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/ee-first/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/encodeurl/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/encodeurl/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/encodeurl/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/encodeurl/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/encodeurl/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/escape-html/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/escape-html/Readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/escape-html/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/escape-html/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/etag/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/etag/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/etag/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/etag/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/etag/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/express/History.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/express/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/express/Readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/express/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/express/lib/application.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/express/lib/express.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/express/lib/middleware/init.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/express/lib/middleware/query.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/express/lib/request.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/express/lib/response.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/express/lib/router/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/express/lib/router/layer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/express/lib/router/route.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/express/lib/utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/express/lib/view.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/express/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/finalhandler/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/finalhandler/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/finalhandler/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/finalhandler/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/finalhandler/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/forwarded/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/forwarded/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/forwarded/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/forwarded/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/forwarded/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/fresh/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/fresh/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/fresh/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/fresh/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/fresh/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/http-errors/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/http-errors/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/http-errors/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/http-errors/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/http-errors/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/.npmignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/.travis.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/Changelog.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/encodings/dbcs-codec.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/encodings/dbcs-data.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/encodings/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/encodings/internal.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/encodings/sbcs-codec.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/encodings/sbcs-data-generated.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/encodings/sbcs-data.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/encodings/tables/big5-added.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/encodings/tables/cp936.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/encodings/tables/cp949.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/encodings/tables/cp950.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/encodings/tables/eucjp.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/encodings/tables/gbk-added.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/encodings/tables/shiftjis.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/encodings/utf16.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/encodings/utf7.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/lib/bom-handling.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/lib/extend-node.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/lib/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/lib/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/lib/streams.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/iconv-lite/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/inherits/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/inherits/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/inherits/inherits.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/inherits/inherits_browser.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/inherits/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/ipaddr.js/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/ipaddr.js/ipaddr.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/ipaddr.js/lib/ipaddr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/ipaddr.js/lib/ipaddr.js.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/ipaddr.js/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/media-typer/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/media-typer/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/media-typer/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/media-typer/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/media-typer/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/merge-descriptors/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/merge-descriptors/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/merge-descriptors/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/merge-descriptors/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/merge-descriptors/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/methods/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/methods/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/methods/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/methods/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/methods/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime-db/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime-db/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime-db/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime-db/db.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime-db/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime-db/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime-types/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime-types/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime-types/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime-types/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime-types/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime/build/build.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime/build/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime/cli.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime/mime.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/mime/types.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/ms/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/ms/license.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/ms/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/ms/readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/negotiator/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/negotiator/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/negotiator/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/negotiator/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/negotiator/lib/charset.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/negotiator/lib/encoding.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/negotiator/lib/language.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/negotiator/lib/mediaType.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/negotiator/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/on-finished/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/on-finished/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/on-finished/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/on-finished/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/on-finished/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/parseurl/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/parseurl/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/parseurl/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/parseurl/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/parseurl/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/path-to-regexp/History.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/path-to-regexp/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/path-to-regexp/Readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/path-to-regexp/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/path-to-regexp/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/proxy-addr/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/proxy-addr/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/proxy-addr/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/proxy-addr/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/proxy-addr/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/.editorconfig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/.eslintignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/.eslintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/CHANGELOG.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/dist/qs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/lib/formats.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/lib/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/lib/parse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/lib/stringify.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/lib/utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/test/.eslintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/test/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/test/parse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/test/stringify.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/qs/test/utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/range-parser/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/range-parser/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/range-parser/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/range-parser/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/range-parser/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/depd/History.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/depd/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/depd/Readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/depd/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/depd/lib/browser/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/depd/lib/compat/callsite-tostring.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/depd/lib/compat/event-listener-count.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/depd/lib/compat/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/depd/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/http-errors/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/http-errors/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/http-errors/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/http-errors/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/http-errors/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/setprototypeof/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/setprototypeof/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/setprototypeof/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/node_modules/setprototypeof/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/raw-body/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/safe-buffer/.travis.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/safe-buffer/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/safe-buffer/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/safe-buffer/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/safe-buffer/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/safe-buffer/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/send/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/send/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/send/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/send/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/send/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/serve-static/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/serve-static/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/serve-static/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/serve-static/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/serve-static/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/setprototypeof/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/setprototypeof/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/setprototypeof/index.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/setprototypeof/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/setprototypeof/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/statuses/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/statuses/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/statuses/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/statuses/codes.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/statuses/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/statuses/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/type-is/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/type-is/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/type-is/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/type-is/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/type-is/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/unpipe/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/unpipe/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/unpipe/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/unpipe/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/unpipe/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/utils-merge/.npmignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/utils-merge/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/utils-merge/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/utils-merge/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/utils-merge/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/vary/HISTORY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/vary/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/vary/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/vary/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/node_modules/vary/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/server.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/styles/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/styles/responsive.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/styles/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/views/partials/alert-danger.hbs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/views/partials/alert-success.hbs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/views/partials/alert-warning.hbs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/views/partials/footer.hbs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/views/partials/my-profile-menu-nav.hbs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/views/partials/navigation.hbs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/views/sections/login-page.hbs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Quizar/views/sections/register-page.hbs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/main/education.html" afterPath="$PROJECT_DIR$/main/education.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -527,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="projects.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="131" column="47" lean-forward="true" selection-start-line="131" selection-start-column="47" selection-end-line="131" selection-end-column="47" />
+            <state relative-caret-position="2227">
+              <caret line="131" column="47" lean-forward="false" selection-start-line="131" selection-start-column="47" selection-end-line="131" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -547,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="education.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="education.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/education.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="145" column="35" lean-forward="false" selection-start-line="145" selection-start-column="35" selection-end-line="145" selection-end-column="35" />
+            <state relative-caret-position="272">
+              <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -653,16 +159,6 @@
               <item name="SN-Portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="SN-Portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SN-Portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SN-Portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SN-Portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SN-Portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -732,18 +228,18 @@
       <workItem from="1542824212795" duration="581000" />
       <workItem from="1542825680618" duration="29000" />
       <workItem from="1542825732823" duration="13000" />
-      <workItem from="1545301168060" duration="418000" />
+      <workItem from="1545301168060" duration="580000" />
+      <workItem from="1545301805784" duration="196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6744000" />
+    <option name="totallyTimeSpent" value="7102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1077,18 +573,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/projects.html">
+    <entry file="file://$PROJECT_DIR$/main/education.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="131" column="47" lean-forward="true" selection-start-line="131" selection-start-column="47" selection-end-line="131" selection-end-column="47" />
+        <state relative-caret-position="272">
+          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/education.html">
+    <entry file="file://$PROJECT_DIR$/main/projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="145" column="35" lean-forward="false" selection-start-line="145" selection-start-column="35" selection-end-line="145" selection-end-column="35" />
+        <state relative-caret-position="2227">
+          <caret line="131" column="47" lean-forward="false" selection-start-line="131" selection-start-column="47" selection-end-line="131" selection-end-column="47" />
           <folding />
         </state>
       </provider>
