@@ -1,0 +1,30 @@
+.title{
+    text-align: center;
+    margin-top: 1em;
+}
+.form{
+    width: 50%;
+    margin: 0 auto;
+}
+#mew{
+    height: 2em;
+}
+.loading{
+    width: 50%;
+    margin-left: 40%;
+}
+.message{
+    display: none;
+}
+.mews{
+    margin-left: 3em;
+    margin-top: 1em;
+}
+.mew{
+    margin: 0 auto;
+    width: 80%;
+    border: 2px solid deepskyblue;
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
