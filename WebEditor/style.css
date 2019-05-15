@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html, body {
+    height: 100%;
+    font-size: 17px;
+    background-color: #3C8FDC;
+    background-color: ;
+}
+
+.main {
+    width: 80%;
+    height: 70%;
+    margin: 2em auto;
+    background-color: #f0f0f0;
+    display: flex;
+    border: 8px solid #F38333;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+}
+
+#input, #output {
+    width: 50%;
+    border: none;
+    padding: 15px;
+    min-width: 100px;
+}
+
+#input {
+    background-color: #333;
+    font-size: 17px;
+    color: #fff;
+    resize: horizontal;
+}
+.c-blue{
+    color: white;
+}
+textarea {
+    resize: none;
+}
+h1{
+    text-align: center;
+    padding-top: 1em;
+}
+footer{
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
